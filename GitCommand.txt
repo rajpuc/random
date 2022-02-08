@@ -1,0 +1,11 @@
+git init
+git remote add origin https://github.com/rajpuc/random.git
+git status
+git add .
+git commit -m 'create index.html file'
+git config --global user.name "rajpuc"
+git config --global user.email "ajoypal.raj@gmail.com"
+git config user.name
+git config user.email
+git push origin master
+git config --global credential.useHttpPath true
